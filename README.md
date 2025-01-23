@@ -23,17 +23,17 @@ Communication, Leadership, Critical thinking, Teamwork and Collaboration, Proble
 Spoken Languages: English, Spanish
 
 ## Experience
-**Graduate Teaching Assistant and Apprentice 
+### Graduate Teaching Assistant and Apprentice 
 TCU, Fort Worth, TX, Jul 2022 - May 2022
 -	Provided valuable support for national research projects and assisted in implementing course content for mathematics classes to enhance the learning experience for undergraduate students.
 - Facilitated communication between professors and students by delivering feedback and fostering an inclusive academic environment.
 
-**VP Assistant
+### VP Assistant
  M3 Glass, Irving, TX, Jul 2019 - Sep 2019; Jun 2021 - Aug 2021
 - Interpreted and analyzed data using statistical techniques to create comprehensive reports, which improved the overall decision-making process.
 - Developed and implemented data collection strategies to enhance the quality and efficiency of statistical analysis while addressing production challenges effectively.
 
-**Production Manager
+### Production Manager
 Laminaire S.A, Colombia, May 2013 - Dec 2014
 •	Optimized resource allocation and production workflows, coordinated production workflows, and managed budgets to ensure efficient operations aligned with organizational goals.
 •	Supervised production personnel and monitored processes to identify and resolve issues, resulting in improved product quality and operational efficiency by 60%.
@@ -42,7 +42,6 @@ Laminaire S.A, Colombia, May 2013 - Dec 2014
 ### Facial Recognition System
 Built a facial recognition system using PCA and Eigenfaces with data augmentation, face alignment, and transfer learning, achieving 92% classification accuracy on a limited dataset of size 30. Improved the accuracy of the model with LDA, clustering, error rate analysis, reconstruction evaluation, and eigenface visualization, reducing misclassification by 17%. 
 
-### 
 
 
 
