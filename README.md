@@ -1,5 +1,3 @@
-# andrea-lopera.github.io
-
 # Data Science Student 
 
 ## Education 
