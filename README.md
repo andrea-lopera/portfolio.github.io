@@ -1,12 +1,12 @@
 # Data Science Student 
 
 ## Education 
-- M.S. in Data Science (GPA: 3.8), Exp. May 2025 | The University of Texas at Arlington, Arlington, TX
-- Applied Data Science Program, 2023 | MIT Professional Education 
-- M.Ed. Mathematics (GPA: 4.0) 2022 | Texas Christian University, Fort Worth, TX
-- B.A. in Education (GPA: 3.9) 2020 | The University of Texas at Arlington, Arlington, TX
-- Production Engineering (GPA: 3.8) 2016 | EAFIT University, Colombia
-- Quality Assurance Technologist (GPA: 3.9) 2009 | ITM University Institute, Colombia
+- M.S. in Data Science (GPA: 3.8), Exp. May 2025                | The University of Texas at Arlington, Arlington, TX
+- Applied Data Science Program, 2023                            | MIT Professional Education 
+- M.Ed. Mathematics (GPA: 4.0) 2022                             | Texas Christian University, Fort Worth, TX
+- B.A. in Education (GPA: 3.9) 2020                             | The University of Texas at Arlington, Arlington, TX
+- Production Engineering (GPA: 3.8) 2016                        | EAFIT University, Colombia
+- Quality Assurance Technologist (GPA: 3.9) 2009                | ITM University Institute, Colombia
 
 ## Skills 
 ### Technical Skills
