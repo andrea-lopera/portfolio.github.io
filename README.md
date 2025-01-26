@@ -1,26 +1,29 @@
 # Data Science Student 
 
 ## Education 
-- M.S. in Data Science (GPA: 3.8), Exp. May 2025                | The University of Texas at Arlington, Arlington, TX
-- Applied Data Science Program, 2023                            | MIT Professional Education 
-- M.Ed. Mathematics (GPA: 4.0) 2022                             | Texas Christian University, Fort Worth, TX
-- B.A. in Education (GPA: 3.9) 2020                             | The University of Texas at Arlington, Arlington, TX
-- Production Engineering (GPA: 3.8) 2016                        | EAFIT University, Colombia
-- Quality Assurance Technologist (GPA: 3.9) 2009                | ITM University Institute, Colombia
+#### The University of Texas at Arlington, Arlington, TX
+M.S. in Data Science (GPA: 3.8), Exp. May 2025
+#### Texas Christian University, Fort Worth, TX 
+M.Ed. Mathematics (GPA: 4.0) 2022
+#### The University of Texas at Arlington, Arlington, TX
+B.A. in Education (GPA: 3.9) 2020 
+#### EAFIT University, Colombia 
+Production Engineering (GPA: 3.8) 2016
+#### ITM University Institute, Colombia                        
+Quality Assurance Technologist (GPA: 3.9) 2009    
+
+## Training 
+#### MIT Professional Education             
+Applied Data Science Program, 2023 
+#### NASA’s Applied Remote Sensing Training (ARSET)
+Machine Learning for Space Exploration, 2023
 
 ## Skills 
-### Technical Skills
--	Programming Languages: Python, R, SPSS, Microsoft Excel.
--	Databases: SQL.
--	Machine Learning Algorithms : Decision Trees, Random Forest, kNN, Linear Regression, Neural Networks, NLP.
--	Collaboration: Jupyter Notebooks, Google Colab.
--	Libraries/Frameworks: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, TensorFlow, PyTorch, Keras, SciPy, Plotly, OpenCV, Beautiful Soup, NLTK, NLP, Statsmodel.
-  
-### Soft Skills: 
-Communication, Leadership, Critical thinking, Teamwork and Collaboration, Problem-Solving skills, Adaptability, Time Management, Project Management, Decision-making, Conflict Management, and Organization
-
-### Additional Skills
-Spoken Languages: English, Spanish
+#### Analysis and Visualization Tools: Microsoft Excel.
+#### Programming Languages: Python, SQL, SPSS.
+#### Libraries: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, TensorFlow, PyTorch, Keras, SciPy, OpenCV, Beautiful Soup, NLTK, NLP, Statsmodel.
+#### Soft Skills: Project Management, Decision making, Critical thinking, Teamwork and Collaboration, Problem-Solving skills, Adaptability, Time Management.
+#### Spoken Languages: English, Spanish.
 
 ## Experience
 ### Graduate Teaching Assistant and Apprentice 
