@@ -43,7 +43,7 @@ Laminaire S.A, Colombia, May 2013 - Dec 2014
 
 ## Projects
 ### Facial Recognition System
-Built a facial recognition system using PCA and Eigenfaces with data augmentation, face alignment, and transfer learning, achieving 92% classification accuracy on a limited dataset of size 30. Improved the accuracy of the model with LDA, clustering, error rate analysis, reconstruction evaluation, and eigenface visualization, reducing misclassification by 17%. 
+This project involved building a facial recognition system using PCA and Eigenfaces. Data augmentation, face alignment, and transfer learning improved the model's robustness, achieving 84% classification accuracy on a small dataset of 32 test images. Further enhancements, including Linear Discriminant Analysis (LDA), clustering, error rate analysis, reconstruction evaluation, and eigenface visualization, reduced misclassification by 43.76% relative to the baseline PCA-only model. The results highlight the potential of combining classical techniques (PCA, LDA) with modern enhancements in facial recognition.
 
 
 
