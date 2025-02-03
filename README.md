@@ -33,7 +33,7 @@ TCU, Fort Worth, TX, Jul 2022 - May 2022
 -	Served as a liaison between professors and students, ensuring clear communication, promoting inclusivity, and fostering a collaborative academic environment.
 
 ### VP Assistant
- M3 Glass, Irving, TX, Jul 2019 - Sep 2019; Jun 2021 - Aug 2021
+M3 Glass, Irving, TX, Jul 2019 - Sep 2019; Jun 2021 - Aug 2021
 -	Analyzed data and interpreted results to create reports that supported decision-making across various departments.
 -	Developed and applied data collection methods to improve the accuracy of analyses and address production issues effectively.
 
