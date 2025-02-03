@@ -1,5 +1,3 @@
-# Data Science Student 
-
 ## Education 
 #### The University of Texas at Arlington, Arlington, TX
 M.S. in Data Science (GPA: 3.8), Exp. May 2025
