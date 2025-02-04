@@ -17,11 +17,16 @@ Applied Data Science Program, 2023
 Machine Learning for Space Exploration, 2023
 
 ## Skills 
-#### Analysis and Visualization Tools: Microsoft Excel.
-#### Programming Languages: Python, SQL, SPSS.
-#### Libraries: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, TensorFlow, PyTorch, Keras, SciPy, OpenCV, Beautiful Soup, NLTK, NLP, Statsmodel.
-#### Soft Skills: Project Management, Decision making, Critical thinking, Teamwork and Collaboration, Problem-Solving skills, Adaptability, Time Management.
-#### Spoken Languages: English, Spanish.
+#### Analysis and Visualization Tools: 
+Microsoft Excel and Power BI
+#### Programming Languages: 
+Python, SQL, SPSS.
+#### Libraries: 
+Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, TensorFlow, PyTorch, Keras, SciPy, OpenCV, Beautiful Soup, NLTK, NLP, Statsmodel.
+#### Soft Skills: 
+Project Management, Decision making, Critical thinking, Teamwork and Collaboration, Problem-Solving skills, Adaptability, Time Management.
+#### Spoken Languages: 
+English, Spanish.
 
 ## Experience
 ### Graduate Teaching Assistant and Apprentice 
