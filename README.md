@@ -1,32 +1,17 @@
+# Data Scientist
+
+#### Technical Skills: Python, SQL, SPSS, Microsoft Excel, Power BI.
+
 ## Education 
-#### The University of Texas at Arlington, Arlington, TX
-M.S. in Data Science (GPA: 3.8), Exp. May 2025
-#### Texas Christian University, Fort Worth, TX 
-M.Ed. Mathematics (GPA: 4.0) 2022
-#### The University of Texas at Arlington, Arlington, TX
-B.A. in Education (GPA: 3.9) 2020 
-#### EAFIT University, Colombia 
-Production Engineering (GPA: 3.8) 2016
-#### ITM University Institute, Colombia                        
-Quality Assurance Technologist (GPA: 3.9) 2009    
+- M.S. in Data Science (GPA: 3.8) | The University of Texas at Arlington, Arlington, TX (Exp. May 2025)
+- M.Ed. Mathematics (GPA: 4.0) | Texas Christian University, Fort Worth, TX (May 2022)
+- B.A. in Education (GPA: 3.9) | The University of Texas at Arlington, Arlington, TX (May 2020)
+- Production Engineering (GPA: 3.8) | EAFIT University, Colombia (Dec 2016)
+- Quality Assurance Technologist (GPA: 3.9) | ITM University Institute, Colombia (Dec 2009)
 
 ## Training 
-#### MIT Professional Education             
-Applied Data Science Program, 2023 
-#### NASA’s Applied Remote Sensing Training (ARSET)
-Machine Learning for Space Exploration, 2023
-
-## Skills 
-#### Analysis and Visualization Tools: 
-Microsoft Excel and Power BI
-#### Programming Languages: 
-Python, SQL, SPSS.
-#### Libraries: 
-Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, TensorFlow, PyTorch, Keras, SciPy, OpenCV, Beautiful Soup, NLTK, NLP, Statsmodel.
-#### Soft Skills: 
-Project Management, Decision making, Critical thinking, Teamwork and Collaboration, Problem-Solving skills, Adaptability, Time Management.
-#### Spoken Languages: 
-English, Spanish.
+- Applied Data Science Program | MIT Professional Education (Feb 2023)
+- Machine Learning for Space Exploration | NASA’s Applied Remote Sensing Training (ARSET) (May 2023)            
 
 ## Experience
 ### Graduate Teaching Assistant and Apprentice 
