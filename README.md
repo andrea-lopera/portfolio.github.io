@@ -67,6 +67,16 @@ Thermoformed Packaging | Quality Management | ERP Integration
 - Analyzed production data to identify recurring defects and optimize packaging workflows for consistency and cost reduction
 - Supported Soinco’s successful readiness for external audits and long-term QMS certification strategy
 
+### Logistics & Quality Director
+Termofijo, Itagüí, Antioquia, Colombia, Jan 2010 - Jan 2012 
+Global Logistics | Raw Material Supply | Export Operations
+
+- Managed international supply chains for raw materials, packaging, and finished goods delivery
+- Collaborated with marketing, purchasing, and production to align inventory flow with export deadlines
+- Oversaw import/export compliance, carrier coordination, and customs documentation for multi-modal shipping
+- Monitored global inventory levels and coordinated shipments across international holding locations
+- Supported continuous improvement in supply chain reliability and cost-efficiency through systems integration
+
 ## Projects
 
 ### Capstone: Identifying Water Bodies Near Drought-Affected Regions | Geospatial Analytics, Python, Power BI, Folium | May 2025
