@@ -16,7 +16,7 @@
 ## Experience
 
 ### Entry-Level Production Supervisor
-Siemens Smart Infrastructure, Grand Prairie, TX • Sept 2024
+#### Siemens Smart Infrastructure, Grand Prairie, TX • Sept 2024
 Low-Voltage Electrical Equipment | OEM Client Projects | Data-Driven Production Support
 
 - Supported the manufacturing of low-voltage switchgear, switchboards, circuit breakers, and power panels for key OEM clients in the EV and energy sectors
@@ -26,7 +26,7 @@ Low-Voltage Electrical Equipment | OEM Client Projects | Data-Driven Production 
 - Withdrew from the role shortly after onboarding to complete full-time graduate studies in Data Science
 
 ### Graduate Teaching Assistant and Apprentice
-TCU, Fort Worth, TX, Jan 2021 - May 2022
+#### TCU, Fort Worth, TX, Jan 2021 - May 2022
 Education Analytics | Research Support | Data Reporting
 
 - Developed academic reporting templates and dashboards in Excel to support instructional planning and improve visibility into student performance trends.
@@ -35,7 +35,7 @@ Education Analytics | Research Support | Data Reporting
 - Streamlined course performance reporting by standardizing data workflows and visual summaries for departmental use.
 
 ### Data & Operations Intern (Summer Roles)
-M3 Glass Technologies, Irving, TX, Interned during two non-consecutive summers (Jul–Sep 2019 and Jun–Aug 2021)
+#### M3 Glass Technologies, Irving, TX, Interned during two non-consecutive summers (Jul–Sep 2019 and Jun–Aug 2021)
 Operational Reporting | Power BI Dashboards | ERP Data Integration
 
 - Designed dashboards in Power BI and Excel to monitor operational metrics such as rework rates, production delays, and resource usage.
@@ -45,7 +45,7 @@ Operational Reporting | Power BI Dashboards | ERP Data Integration
 - Applied Lean Manufacturing principles to improve process efficiency and reduce production waste.
 
 ### Production Coordinator
-Laminaire SAS, Itagui, Antioquia, Colombia, May 2013 - Dec 2014
+#### Laminaire SAS, Itagui, Antioquia, Colombia, May 2013 - Dec 2014
 Manufacturing Optimization | ERP Reporting | Team Operations
 
 - Led production planning and scheduling efforts, coordinating raw materials, labor, and shift capacity to align with delivery targets.
@@ -56,7 +56,7 @@ Manufacturing Optimization | ERP Reporting | Team Operations
 - Implemented Lean Manufacturing practices to streamline operations, reduce non-value-added activity, and improve throughput.
 
 ### Production Coordinator & Quality Systems Analyst
-Soinco S.A.S, Medellín, Antioquia, Colombia, May 2012 - May 2013
+#### Soinco S.A.S, Medellín, Antioquia, Colombia, May 2012 - May 2013
 Thermoformed Packaging | Quality Management | ERP Integration
 
 - Oversaw daily operations across three shifts in thermoforming production, managing labor flow, shift transitions, and order fulfillment timelines
@@ -68,7 +68,7 @@ Thermoformed Packaging | Quality Management | ERP Integration
 - Supported Soinco’s successful readiness for external audits and long-term QMS certification strategy
 
 ### Logistics & Quality Director
-Termofijo, Itagüí, Antioquia, Colombia, Jan 2010 - Jan 2012 
+#### Termofijo, Itagüí, Antioquia, Colombia, Jan 2010 - Jan 2012 
 Global Logistics | Raw Material Supply | Export Operations
 
 - Managed international supply chains for raw materials, packaging, and finished goods delivery
