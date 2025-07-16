@@ -15,7 +15,7 @@
 
 ## Experience
 
-### Entry-Level Production Supervisor
+### Production Supervisor
 #### Siemens Smart Infrastructure, Grand Prairie, TX • Sept 2024
 Low-Voltage Electrical Equipment | OEM Client Projects | Data-Driven Production Support
 
