@@ -33,7 +33,7 @@ Created a geospatial analytics tool to support drought response using NASA & USG
 - Empowered environmental planners with data-driven visibility into critical areas  
 
 ![K-Means Clustering](assets/K_Means_clustering.png)
-![NDWI Forecast](assets/NDWI .png)
+![NDWI Forecast](assets/NDWI.png)
 - The black line represents the actual NDWI trend, indicating real water conditions in the region.
 - The blue dashed line shows predictions from SARIMA.
 - The green lines shows improved predictions.
