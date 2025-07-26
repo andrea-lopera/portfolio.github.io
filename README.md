@@ -1,25 +1,20 @@
-# Data & Operations Analyst
-
-👋 Hi! I’m Andrea, a data scientist with a background in industrial production, education analytics, and process optimization. I specialize in transforming messy systems into streamlined, data-informed workflows that drive operational clarity and performance.
-
-My portfolio blends machine learning, business intelligence, and operations strategy—centered on real-world impact across sectors like manufacturing, energy, and education.
-
----
-
-### 💡 Core Skills
+## Core Skills
 **Python** (Pandas, NumPy, Scikit-learn, PyTorch) • **SQL** • **Power BI** • **Tableau** • **SPSS** • **Excel** • **Geospatial Analytics** • **Data Modeling** • **Workflow Automation** • **Dashboards** • **ERP & QMS Systems** • **Lean Manufacturing**
 
 ---
 
-## 🎯 Projects
+## Projects
 
-### 🔧 Production & Operations Analytics
+### Production & Operations Analytics
 
-#### 📊 Production Line Intelligence Dashboard | Tableau, Python, SQL | 2025  
+#### Production Line Intelligence Dashboard | Tableau, Python, SQL | 2025  
 An end-to-end analytics solution to track KPIs, root causes of downtime, and rework in a simulated manufacturing line.  
 - Built SQL queries and Python scripts to preprocess operations data  
 - Designed a Tableau dashboard to visualize trends and highlight bottlenecks  
-- Emphasized decision support for production managers and process engineers  
+- Emphasized decision support for production managers and process engineers
+
+![Production Dashboard](assets/production_thumbnail.png)
+
 
 #### 🚘 Used Car Price Prediction | Regression Models, Python | 2023  
 Built and evaluated nine machine learning models to estimate used car prices with over 90% accuracy.  
