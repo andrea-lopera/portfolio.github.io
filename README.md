@@ -16,7 +16,7 @@ An end-to-end analytics solution to track KPIs, root causes of downtime, and rew
 ![Production Dashboard](assets/production_thumbnail.png)
 
 
-#### 🚘 Used Car Price Prediction | Regression Models, Python | 2023  
+#### Used Car Price Prediction | Regression Models, Python | 2023  
 Built and evaluated nine machine learning models to estimate used car prices with over 90% accuracy.  
 - Combined regression (Linear, Ridge, Lasso) with tree-based methods (RF, KNN)  
 - Enhanced model performance using feature engineering and external datasets  
@@ -24,25 +24,34 @@ Built and evaluated nine machine learning models to estimate used car prices wit
 
 ---
 
-### 🌍 Geospatial & Public Sector Analytics
+### Geospatial & Public Sector Analytics
 
-#### 💧 Mapping Water Bodies for Drought Relief | Python, Power BI, Folium | 2025  
+#### Mapping Water Bodies for Drought Relief | Python, Power BI, Folium | 2025  
 Created a geospatial analytics tool to support drought response using NASA & USGS satellite data.  
 - Mapped nearby water sources to drought regions using spatial joins and clustering  
 - Delivered insights via Power BI dashboards and interactive Folium maps  
 - Empowered environmental planners with data-driven visibility into critical areas  
 
+![K-Means Clustering](assets/K_Means_clustering.png)
+![NDWI Forecast](assets/NDWI.png)
+- The black line represents the actual NDWI trend, indicating real water conditions in the region.
+- The blue dashed line shows predictions from SARIMA.
+- The green lines shows improved predictions.
+
 ---
 
-### 🧠 AI & Computer Vision
+### AI & Computer Vision
 
-#### 🧑‍💻 Facial Recognition System | PCA, LDA, Python | 2024  
+#### Facial Recognition System | PCA, LDA, Python | 2024  
 Built a facial recognition system using classical techniques (Eigenfaces, PCA/LDA).  
 - Applied transfer learning, face alignment, and reconstruction evaluation  
 - Improved classification accuracy by 43.7% over the baseline  
-- Combined dimensionality reduction and clustering to optimize predictions  
+- Combined dimensionality reduction and clustering to optimize predictions
 
-#### 🖼️ Image Classification with CNNs | ResNet-18, PyTorch, Transfer Learning | 2024  
+![Eigenfaces](assets/eigenfaces_grid.png)
+![Reconstructed Eigenfaces](assets/reconstructed_faces_grid.png)
+
+#### Image Classification with CNNs | ResNet-18, PyTorch, Transfer Learning | 2024  
 Trained deep learning models from scratch and via transfer learning.  
 - Achieved 93.4% accuracy with fine-tuned ResNet  
 - Used PyTorch Lightning for reproducibility and early stopping  
@@ -50,7 +59,7 @@ Trained deep learning models from scratch and via transfer learning.
 
 ---
 
-## 💼 Experience Highlights
+## Experience Highlights
 
 ### Production Supervisor – **Siemens Smart Infrastructure**, TX (2024)  
 Supported switchgear production for EV/energy sector clients.  
@@ -77,7 +86,7 @@ Led ERP-based production planning, ISO 9001 QMS implementation, and internationa
 
 ---
 
-## 🎓 Education & Training
+## Education & Training
 
 - **M.S. Data Science** – UT Arlington (2025)  
 - **M.Ed. Mathematics** – Texas Christian University (2022)  
