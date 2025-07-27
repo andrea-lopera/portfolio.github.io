@@ -100,11 +100,11 @@ Led ERP-based production planning, ISO 9001 QMS implementation, and internationa
 
 ---
 
-## 🤝 Let’s Connect
+## Let’s Connect
 
 If you’re seeking someone who brings **operational insight + data fluency**, I’d love to connect. Whether it’s improving manufacturing workflows, optimizing public service delivery, or designing analytics for learning systems—I bring both structure and strategy to the table.
 
-📫 [andrealopera.github.io](https://andrea-lopera.github.io/portfolio.github.io/) • [LinkedIn](https://www.linkedin.com/in/andrea-lopera-math1984/) • [Email Me](mailto:loperaandreaa@gmail.com)
+[andrealopera.github.io](https://andrea-lopera.github.io/portfolio.github.io/) • [LinkedIn](https://www.linkedin.com/in/andrea-lopera-math1984/) • ✉️ [Email Me](mailto:loperaandreaa@gmail.com)
 
 ---
 
