@@ -5,6 +5,16 @@
 
 ## Projects
 
+#### Procurement Intelligence Dashboard | Python, Tableau | 2025
+
+Built an end-to-end procurement analytics stack on a synthetic dataset to surface supplier concentration, service quality, and cost of poor quality.
+
+- Designed a realistic **orders/suppliers/lead-times** dataset; engineered KPIs (OTIF, Defect %, **COPQ $**, CR5, “Suppliers to 80%”).
+- Built **Tableau dashboards** (Executive Overview, Supplier Performance, Risk & Geo) with Pareto, Top-5, and map views.
+- Identified **cost drivers & bottlenecks** via defect trend analysis and lead-time variability; delivered exec-ready insights.
+
+[View Tableau Public](#) • [Code/Notebook](data)
+![Executive Overview](assets/procurement_overview.png)
 ### Production & Operations Analytics
 
 #### Production Line Intelligence Dashboard | Tableau, Python, SQL | 2025  
