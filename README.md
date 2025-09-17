@@ -14,7 +14,7 @@ Built an end-to-end procurement analytics stack on a synthetic dataset to surfac
 - Identified **cost drivers & bottlenecks** via defect trend analysis and lead-time variability; delivered exec-ready insights.
 
 [View Tableau Public](#) • [Code/Notebook](data)
-![Executive Overview](dashboard/Executive Overview.png)
+![Executive Overview](assets/Executive%20Overview.png)
 ### Production & Operations Analytics
 
 #### Production Line Intelligence Dashboard | Tableau, Python, SQL | 2025  
