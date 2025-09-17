@@ -13,7 +13,6 @@ Built an end-to-end procurement analytics stack on a synthetic dataset to surfac
 - Built **Tableau dashboards** (Executive Overview, Supplier Performance, Risk & Geo) with Pareto, Top-5, and map views.
 - Identified **cost drivers & bottlenecks** via defect trend analysis and lead-time variability; delivered exec-ready insights.
 
-[View Tableau Public](#) • [Code/Notebook](data)
 ![Executive Overview](assets/Executive%20Overview.png)
 ### Production & Operations Analytics
 
