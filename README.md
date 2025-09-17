@@ -5,6 +5,8 @@
 
 ## Projects
 
+### Production & Operations Analytics
+
 #### Procurement Intelligence Dashboard | Python, Tableau | 2025
 
 Built an end-to-end procurement analytics stack on a synthetic dataset to surface supplier concentration, service quality, and cost of poor quality.
@@ -14,7 +16,6 @@ Built an end-to-end procurement analytics stack on a synthetic dataset to surfac
 - Identified **cost drivers & bottlenecks** via defect trend analysis and lead-time variability; delivered exec-ready insights.
 
 ![Executive Overview](assets/Executive%20Overview.png)
-### Production & Operations Analytics
 
 #### Production Line Intelligence Dashboard | Tableau, Python, SQL | 2025  
 An end-to-end analytics solution to track KPIs, root causes of downtime, and rework in a simulated manufacturing line.  
