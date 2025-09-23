@@ -9,11 +9,11 @@
 
 #### Procurement Intelligence Dashboard | Python, Tableau | 2025
 
-Built an end-to-end procurement analytics stack on a synthetic dataset to surface supplier concentration, service quality, and cost of poor quality.
+Built an end-to-end procurement analytics stack by designing and generating a 9,750-row synthetic dataset in Python (orders, suppliers, lead times, defects, costs, and risk scores).
 
-- Designed a realistic **orders/suppliers/lead-times** dataset; engineered KPIs (OTIF, Defect %, **COPQ $**, CR5, “Suppliers to 80%”).
-- Built **Tableau dashboards** (Executive Overview, Supplier Performance, Risk & Geo) with Pareto, Top-5, and map views.
-- Identified **cost drivers & bottlenecks** via defect trend analysis and lead-time variability; delivered exec-ready insights.
+- Engineered KPIs (OTIF, Defect %, COPQ $, CR5, “Suppliers to 80%”) and feature-engineered risk scoring.
+- Developed Tableau dashboards (Executive Overview, Supplier Performance, Risk & Geo) with Pareto, Top-5, trend, and geographic views.
+- Identified cost drivers and bottlenecks through defect trend analysis and lead-time variability, delivering executive-ready insights.
 
 ![Executive Overview](assets/Executive%20Overview.png)
 
@@ -24,7 +24,6 @@ An end-to-end analytics solution to track KPIs, root causes of downtime, and rew
 - Emphasized decision support for production managers and process engineers
 
 ![Production Dashboard](assets/production_thumbnail.png)
-
 
 #### Used Car Price Prediction | Regression Models, Python | 2023  
 Built and evaluated nine machine learning models to estimate used car prices with over 90% accuracy.  
