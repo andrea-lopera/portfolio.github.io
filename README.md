@@ -12,6 +12,7 @@
 Built an end-to-end procurement analytics stack by designing and generating a 9,750-row synthetic dataset in Python (orders, suppliers, lead times, defects, costs, and risk scores).
 
 - Engineered KPIs (OTIF, Defect %, COPQ $, CR5, “Suppliers to 80%”) and feature-engineered risk scoring.
+  - ![GitHub Repository](https://github.com/andrea-lopera/Procurement-Intelligence-Dashboard-main.git)   
 - Developed Tableau dashboards (Executive Overview, Supplier Performance, Risk & Geo) with Pareto, Top-5, trend, and geographic views.
 - Identified cost drivers and bottlenecks through defect trend analysis and lead-time variability, delivering executive-ready insights.
 
