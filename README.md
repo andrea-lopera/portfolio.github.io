@@ -7,26 +7,22 @@
 
 ### Production & Operations Analytics
 
-#### Global Supply Chain & Procurement Intelligence (End-to-End Analytics)| Python, Tableau | 2025
+#### ![Global Supply Chain & Procurement Intelligence (End-to-End Analytics)](https://github.com/andrea-lopera/Procurement-Intelligence-Dashboard-main)  | Python, Tableau | 2025
 
 Built an end-to-end procurement analytics stack by designing and generating a robust, 9,750-row synthetic dataset (orders, suppliers, lead times, defects, costs, and risk scores). The synthetic data was structurally modeled to mirror the high-complexity, low-volume supply chain of heavy equipment manufacturing.
 
 - Engineered core procurement KPIs: On-Time, In-Full (OTIF), Cost of Poor Quality (COPQ $), and a CR5 supplier concentration metric to measure sourcing risk. 
 - Developed Tableau dashboards (Executive Overview, Supplier Performance, Risk & Geo) with Pareto, Top-5, trend, and geographic views.
 - Identified key cost drivers by tracing defect trends back to specific supplier process variation and highlighted bottlenecks using lead-time variability analysis.
-  
-![GitHub Repository](https://github.com/andrea-lopera/Procurement-Intelligence-Dashboard-main.git)  
 
 ![Executive Overview](assets/Executive%20Overview.png)
 
-#### Manufacturing Operations Control & Downtime Root Cause Analysis| Python, SQL, Tableau | 2025  
+#### ![Manufacturing Operations Control & Downtime Root Cause Analysis](https://github.com/andrea-lopera/Production-Line-Intelligence-Dashboard)| Python, SQL, Tableau | 2025  
 An end-to-end analytics solution to track KPIs, root causes of downtime, and material rework in a simulated multi-stage, high-precision manufacturing line.
 - Used Python and SQL to structure raw machine logs and operations data, focusing on time-series analysis of sensor readings and discrete event logging (DEL). 
 - Designed a Tableau dashboard to visualize Overall Equipment Effectiveness (OEE) and used Pareto analysis to highlight the 80/20 root causes of recurrent downtime and cycle-time variance.
 - Emphasized decision support for Production Managers and Process Engineers by isolating machine-specific yield issues and predicting potential resource bottlenecks.
-
-![GitHub Repository](https://github.com/andrea-lopera/Production-Line-Intelligence-Dashboard.git)  
-
+  
 ![Production Dashboard](assets/production_thumbnail.png)
 
 #### Used Car Price Prediction | Regression Models, Python | 2023  
