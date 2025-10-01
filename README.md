@@ -7,18 +7,18 @@
 
 ### Production & Operations Analytics
 
-#### Procurement Intelligence Dashboard | Python, Tableau | 2025
+#### Global Supply Chain & Procurement Intelligence (End-to-End Analytics)| Python, Tableau | 2025
 
-Built an end-to-end procurement analytics stack by designing and generating a 9,750-row synthetic dataset in Python (orders, suppliers, lead times, defects, costs, and risk scores).
+Built an end-to-end procurement analytics stack by designing and generating a robust, 9,750-row synthetic dataset (orders, suppliers, lead times, defects, costs, and risk scores). The synthetic data was structurally modeled to mirror the high-complexity, low-volume supply chain of heavy equipment manufacturing.
 
-- Engineered KPIs (OTIF, Defect %, COPQ $, CR5, “Suppliers to 80%”) and feature-engineered risk scoring.
+- Engineered core procurement KPIs: On-Time, In-Full (OTIF), Cost of Poor Quality (COPQ $), and a CR5 supplier concentration metric to measure sourcing risk.
   - ![GitHub Repository](https://github.com/andrea-lopera/Procurement-Intelligence-Dashboard-main.git)   
 - Developed Tableau dashboards (Executive Overview, Supplier Performance, Risk & Geo) with Pareto, Top-5, trend, and geographic views.
-- Identified cost drivers and bottlenecks through defect trend analysis and lead-time variability, delivering executive-ready insights.
+- Identified key cost drivers by tracing defect trends back to specific supplier process variation and highlighted bottlenecks using lead-time variability analysis.
 
 ![Executive Overview](assets/Executive%20Overview.png)
 
-#### Production Line Intelligence Dashboard | Tableau, Python, SQL | 2025  
+#### Manufacturing Operations Control & Downtime Root Cause Analysis|Python, SQL, Tableau| 2025  
 An end-to-end analytics solution to track KPIs, root causes of downtime, and rework in a simulated manufacturing line.  
 - Built SQL queries and Python scripts to preprocess operations data  
 - Designed a Tableau dashboard to visualize trends and highlight bottlenecks  
