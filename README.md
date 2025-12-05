@@ -17,7 +17,7 @@ Built an end-to-end procurement analytics stack by designing and generating a ro
 
 ![Executive Overview](assets/Executive%20Overview.png)
 
-#### [Production Line Intelligence & Rework Risk Modeling](https://github.com/andrea-lopera/Production-Line-Intelligence-Dashboard)| Python, SQL, Tableau | 2025  
+#### [Production Line Intelligence & Rework Risk Modeling](https://github.com/andrea-lopera/Production-Line-Intelligence-Dashboard)  | Python, SQL, Tableau | 2025  
 Simulated a multi-stage glass manufacturing line with 50k+ production records to track cycle times, quality outcomes, and downtime across shifts, machines, and product families.
 - Used Python to generate realistic production logs (JSON) and QC audit data (CSV), then modeled them in PostgreSQL with relational schemas, joins, and window functions to engineer features such as cumulative downtime per machine.
 - Designed Tableau dashboards to monitor throughput, rework rate, and average cycle time by product category, shift, and machine, supporting root-cause analysis of performance and quality issues.
