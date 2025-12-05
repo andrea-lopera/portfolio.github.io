@@ -17,11 +17,11 @@ Built an end-to-end procurement analytics stack by designing and generating a ro
 
 ![Executive Overview](assets/Executive%20Overview.png)
 
-#### [Manufacturing Operations Control & Downtime Root Cause Analysis](https://github.com/andrea-lopera/Production-Line-Intelligence-Dashboard)| Python, SQL, Tableau | 2025  
-An end-to-end analytics solution to track KPIs, root causes of downtime, and material rework in a simulated multi-stage, high-precision manufacturing line.
-- Used Python and SQL to structure raw machine logs and operations data, focusing on time-series analysis of sensor readings and discrete event logging (DEL). 
-- Designed a Tableau dashboard to visualize Overall Equipment Effectiveness (OEE) and used Pareto analysis to highlight the 80/20 root causes of recurrent downtime and cycle-time variance.
-- Emphasized decision support for Production Managers and Process Engineers by isolating machine-specific yield issues and predicting potential resource bottlenecks.
+#### [Production Line Intelligence & Rework Risk Modeling](https://github.com/andrea-lopera/Production-Line-Intelligence-Dashboard)| Python, SQL, Tableau | 2025  
+Simulated a multi-stage glass manufacturing line with 50k+ production records to track cycle times, quality outcomes, and downtime across shifts, machines, and product families.
+- Used Python to generate realistic production logs (JSON) and QC audit data (CSV), then modeled them in PostgreSQL with relational schemas, joins, and window functions to engineer features such as cumulative downtime per machine.
+- Designed Tableau dashboards to monitor throughput, rework rate, and average cycle time by product category, shift, and machine, supporting root-cause analysis of performance and quality issues.
+- Trained classification models (Logistic Regression / Random Forest) to predict the rework flag from process times and product attributes, demonstrating how analytics can proactively flag high-risk units before they leave the line.
   
 ![Production Dashboard](assets/production_thumbnail.png)
 
