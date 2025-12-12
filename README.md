@@ -30,7 +30,7 @@ Built an end-to-end procurement analytics stack by designing and generating a ro
 
 ### Geospatial & Public Sector Analytics
 
-#### Mapping Water Bodies for Drought Relief | Python, Power BI, Folium | 2025  
+#### [Mapping Water Bodies for Drought Relief](https://github.com/andrea-lopera/Identifying-Water-Bodies-Near-Drought-Affected-Regions) | Python, Power BI, Folium | 2025  
 Created a geospatial analytics tool to support drought response using NASA & USGS satellite data.  
 - Mapped nearby water sources to drought regions using spatial joins and clustering  
 - Delivered insights via Power BI dashboards and interactive Folium maps  
