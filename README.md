@@ -30,29 +30,7 @@ This project simulates a multi-stage glass manufacturing line and builds an end-
 ![ROC – Logistic Regression (Rework Risk)](assets/roc_lr_rework_risk.png)
 
 **Feature Importance (Top Features)**  
-![Feature Importance – Logistic Regression (Rework Risk)](assets/Feature Importance LG Rework Risk.png)
-
-
-##### Rework Risk
-
-**Logistic Regression (class-weighted)**
-
-**Model Evaluation Metrics**
-
-| Metric    | Value |
-|----------|-------|
-| Accuracy | 0.567 |
-| Precision (class 1) | 0.381 |
-| Recall (class 1)    | 0.828 |
-| F1 (class 1)        | 0.522 |
-
-**ROC Curve**  
-![ROC – Logistic Regression (Rework Risk)](assets/roc_lr_rework_risk.png)
-
-**Feature Importance (Top Features)**  
 ![Feature Importance – Logistic Regression (Rework Risk)](assets/fi_lr_rework_risk.png)
-
----
 
 **Random Forest (tuned)**
 
@@ -70,7 +48,6 @@ This project simulates a multi-stage glass manufacturing line and builds an end-
 
 **Feature Importance (Top Features)**  
 ![Feature Importance – Random Forest (Rework Risk)](assets/fi_rf_rework_risk.png)
-
 
 **Model Selection**
 
@@ -91,6 +68,7 @@ From a business standpoint, the main goal is to **catch as many bad units as pos
 
 **Conclusion:**  
 I use Logistic Regression as a transparent benchmark, but deploy the tuned Random Forest as the main rework-risk model because it maximizes recall on bad parts while maintaining comparable overall performance.
+
 
 ##### Rework Reason (3 Buckets)
 
