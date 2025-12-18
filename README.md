@@ -13,7 +13,7 @@ This project simulates a multi-stage glass manufacturing line and builds an end-
 ##### Production Dashboard
 ![Production Dashboard](assets/production_line/production_thumbnail.png)
 
-##### Rework Risk
+#### Rework Risk
 
 **Logistic Regression (class-weighted)**
 
@@ -70,7 +70,7 @@ From a business standpoint, the main goal is to **catch as many bad units as pos
 I use Logistic Regression as a transparent benchmark, but deploy the tuned Random Forest as the main rework-risk model because it maximizes recall on bad parts while maintaining comparable overall performance.
 
 
-##### Rework Reason (3 Buckets)
+#### Rework Reason (3 Buckets)
 
 **Random Forest (grouped buckets)**
 
