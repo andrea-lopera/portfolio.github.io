@@ -11,9 +11,9 @@
 This project simulates a multi-stage glass manufacturing line and builds an end-to-end analytics stack around it. Using Python, I generate realistic production logs (JSON) and quality audit data (CSV), then load them into PostgreSQL to model the process with relational schemas, joins, and window functions. On top of that, I design Tableau dashboards to monitor throughput, rework rate, and cycle time across shifts, machines, and product families. Finally, I train machine learning models (Logistic Regression and Random Forest) to predict which units are likely to require rework and to classify the most probable rework root cause, showing how analytics can proactively support production and quality decisions.
 
 ##### Production Dashboard
-![Production Dashboard](assets/production_thumbnail.png)
+![Production Dashboard](assets/production_line/production_thumbnail.png)
 
-##### Rework Risk
+#### Rework Risk
 
 **Logistic Regression (class-weighted)**
 
@@ -27,10 +27,10 @@ This project simulates a multi-stage glass manufacturing line and builds an end-
 | F1 (class 1)        | 0.522 |
 
 **ROC Curve**  
-![ROC – Logistic Regression (Rework Risk)](assets/roc_lr_rework_risk.png)
+![ROC – Logistic Regression (Rework Risk)](assets/production_line/roc_lr_rework_risk.png)
 
 **Feature Importance (Top Features)**  
-![Feature Importance – Logistic Regression (Rework Risk)](assets/fi_lr_rework_risk.png)
+![Feature Importance – Logistic Regression (Rework Risk)](assets/production_line/fi_lr_rework_risk.png)
 
 **Random Forest (tuned)**
 
@@ -44,10 +44,10 @@ This project simulates a multi-stage glass manufacturing line and builds an end-
 | F1 (class 1)        | 0.531 |
 
 **ROC Curve**  
-![ROC – Random Forest (Rework Risk)](assets/roc_rf_rework_risk.png)
+![ROC – Random Forest (Rework Risk)](assets/production_line/roc_rf_rework_risk.png)
 
 **Feature Importance (Top Features)**  
-![Feature Importance – Random Forest (Rework Risk)](assets/fi_rf_rework_risk.png)
+![Feature Importance – Random Forest (Rework Risk)](assets/production_line/fi_rf_rework_risk.png)
 
 **Model Selection**
 
@@ -70,7 +70,7 @@ From a business standpoint, the main goal is to **catch as many bad units as pos
 I use Logistic Regression as a transparent benchmark, but deploy the tuned Random Forest as the main rework-risk model because it maximizes recall on bad parts while maintaining comparable overall performance.
 
 
-##### Rework Reason (3 Buckets)
+#### Rework Reason (3 Buckets)
 
 **Random Forest (grouped buckets)**
 
@@ -86,10 +86,10 @@ I use Logistic Regression as a transparent benchmark, but deploy the tuned Rando
 | **Weighted Avg**                 |     0.90  |  0.90  | 0.90 |        |
 
 **ROC Curves**  
-![ROC – Random Forest (Rework Reason Buckets)](assets/roc_rf_rework_reason.png)
+![ROC – Random Forest (Rework Reason Buckets)](assets/production_line/roc_rf_rework_reason.png)
 
 **Feature Importance (Top Features)**  
-![Feature Importance – Random Forest (Rework Reason Buckets)](assets/fi_rf_rework_reason.png)
+![Feature Importance – Random Forest (Rework Reason Buckets)](assets/production_line/fi_rf_rework_reason.png)
 
 **Observations:**
 
