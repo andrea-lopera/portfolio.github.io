@@ -30,7 +30,7 @@ This project simulates a multi-stage glass manufacturing line and builds an end-
 ![ROC – Logistic Regression (Rework Risk)](assets/roc_lr_rework_risk.png)
 
 **Feature Importance (Top Features)**  
-![Feature Importance – Logistic Regression (Rework Risk)](assets/fi_lr_rework_risk.png)
+![Feature Importance – Logistic Regression (Rework Risk)](assets/Feature Importance LG Rework Risk.png)
 
 
 ##### Rework Risk
