@@ -8,7 +8,12 @@
 ### Production & Operations Analytics
 
 #### [Production Line Intelligence & Rework Risk Modeling](https://github.com/andrea-lopera/Production-Line-Intelligence-Dashboard)  | Python, SQL, Tableau | 2025  
-This project simulates a multi-stage glass manufacturing line and builds an end-to-end analytics stack around it. Using Python, I generate realistic production logs (JSON) and quality audit data (CSV), then load them into PostgreSQL to model the process with relational schemas, joins, and window functions. On top of that, I design Tableau dashboards to monitor throughput, rework rate, and cycle time across shifts, machines, and product families. Finally, I train machine learning models (Logistic Regression and Random Forest) to predict which units are likely to require rework and to classify the most probable rework root cause, showing how analytics can proactively support production and quality decisions.
+Simulated a multi-stage glass manufacturing line with 50k+ production records to analyze cycle times, quality outcomes, and downtime across shifts, machines, and product categories, then layered SQL, Tableau, and ML on top to turn raw logs into actionable operations insight.
+
+- Used Python to generate realistic production logs (JSON) and quality audit data (CSV), then loaded them into PostgreSQL with a relational schema, joins, and window functions (e.g., cumulative downtime per machine and shift).
+- Designed Tableau dashboards to monitor throughput, rework rate, and average cycle time by product category, machine, and shift, supporting drill-down root-cause analysis for production and quality issues.
+- Trained classification models (Logistic Regression and Random Forest) to predict which units are likely to require rework based on process times and product attributes, prioritizing recall to minimize missed defects.
+- Trained a second Random Forest model to classify the most likely rework root-cause bucket (Dimensional / Assembly Issues, Equipment / Human Factors, Surface / Material Defects), linking predictions back to specific machines and shifts for targeted corrective actions.
 
 ##### Production Dashboard
 ![Production Dashboard](assets/production_line/production_thumbnail.png)
