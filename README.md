@@ -27,10 +27,10 @@ This project simulates a multi-stage glass manufacturing line and builds an end-
 | F1 (class 1)        | 0.522 |
 
 **ROC Curve**  
-![ROC – Logistic Regression (Rework Risk)](assets/roc_lr_rework_risk.png)
+![ROC – Logistic Regression (Rework Risk)](assets/production_line/roc_lr_rework_risk.png)
 
 **Feature Importance (Top Features)**  
-![Feature Importance – Logistic Regression (Rework Risk)](assets/fi_lr_rework_risk.png)
+![Feature Importance – Logistic Regression (Rework Risk)](assets/production_line/fi_lr_rework_risk.png)
 
 **Random Forest (tuned)**
 
@@ -44,10 +44,10 @@ This project simulates a multi-stage glass manufacturing line and builds an end-
 | F1 (class 1)        | 0.531 |
 
 **ROC Curve**  
-![ROC – Random Forest (Rework Risk)](assets/roc_rf_rework_risk.png)
+![ROC – Random Forest (Rework Risk)](assets/production_line/roc_rf_rework_risk.png)
 
 **Feature Importance (Top Features)**  
-![Feature Importance – Random Forest (Rework Risk)](assets/fi_rf_rework_risk.png)
+![Feature Importance – Random Forest (Rework Risk)](assets/production_line/fi_rf_rework_risk.png)
 
 **Model Selection**
 
@@ -86,10 +86,10 @@ I use Logistic Regression as a transparent benchmark, but deploy the tuned Rando
 | **Weighted Avg**                 |     0.90  |  0.90  | 0.90 |        |
 
 **ROC Curves**  
-![ROC – Random Forest (Rework Reason Buckets)](assets/roc_rf_rework_reason.png)
+![ROC – Random Forest (Rework Reason Buckets)](assets/production_line/roc_rf_rework_reason.png)
 
 **Feature Importance (Top Features)**  
-![Feature Importance – Random Forest (Rework Reason Buckets)](assets/fi_rf_rework_reason.png)
+![Feature Importance – Random Forest (Rework Reason Buckets)](assets/production_line/fi_rf_rework_reason.png)
 
 **Observations:**
 
