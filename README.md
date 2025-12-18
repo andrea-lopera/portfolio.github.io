@@ -8,13 +8,123 @@
 ### Production & Operations Analytics
 
 #### [Production Line Intelligence & Rework Risk Modeling](https://github.com/andrea-lopera/Production-Line-Intelligence-Dashboard)  | Python, SQL, Tableau | 2025  
-Simulated a multi-stage glass manufacturing line with 50k+ production records to track cycle times, quality outcomes, and downtime across shifts, machines, and product families.
-- Used Python to generate realistic production logs (JSON) and QC audit data (CSV), then modeled them in PostgreSQL with relational schemas, joins, and window functions to engineer features such as cumulative downtime per machine.
-- Designed Tableau dashboards to monitor throughput, rework rate, and average cycle time by product category, shift, and machine, supporting root-cause analysis of performance and quality issues.
-- Trained classification models (Logistic Regression / Random Forest) to predict the rework flag from process times and product attributes, demonstrating how analytics can proactively flag high-risk units before they leave the line.
-  
+This project simulates a multi-stage glass manufacturing line and builds an end-to-end analytics stack around it. Using Python, I generate realistic production logs (JSON) and quality audit data (CSV), then load them into PostgreSQL to model the process with relational schemas, joins, and window functions. On top of that, I design Tableau dashboards to monitor throughput, rework rate, and cycle time across shifts, machines, and product families. Finally, I train machine learning models (Logistic Regression and Random Forest) to predict which units are likely to require rework and to classify the most probable rework root cause, showing how analytics can proactively support production and quality decisions.
+
+##### Production Dashboard
 ![Production Dashboard](assets/production_thumbnail.png)
 
+##### Rework Risk
+
+**Logistic Regression (class-weighted)**
+
+**Model Evaluation Metrics**
+
+| Metric    | Value |
+|----------|-------|
+| Accuracy | 0.567 |
+| Precision (class 1) | 0.381 |
+| Recall (class 1)    | 0.828 |
+| F1 (class 1)        | 0.522 |
+
+**ROC Curve**  
+![ROC – Logistic Regression (Rework Risk)](assets/roc_lr_rework_risk.png)
+
+**Feature Importance (Top Features)**  
+![Feature Importance – Logistic Regression (Rework Risk)](assets/fi_lr_rework_risk.png)
+
+
+##### Rework Risk
+
+**Logistic Regression (class-weighted)**
+
+**Model Evaluation Metrics**
+
+| Metric    | Value |
+|----------|-------|
+| Accuracy | 0.567 |
+| Precision (class 1) | 0.381 |
+| Recall (class 1)    | 0.828 |
+| F1 (class 1)        | 0.522 |
+
+**ROC Curve**  
+![ROC – Logistic Regression (Rework Risk)](assets/roc_lr_rework_risk.png)
+
+**Feature Importance (Top Features)**  
+![Feature Importance – Logistic Regression (Rework Risk)](assets/fi_lr_rework_risk.png)
+
+---
+
+**Random Forest (tuned)**
+
+**Model Evaluation Metrics**
+
+| Metric    | Value |
+|----------|-------|
+| Accuracy | 0.539 |
+| Precision (class 1) | 0.374 |
+| Recall (class 1)    | 0.914 |
+| F1 (class 1)        | 0.531 |
+
+**ROC Curve**  
+![ROC – Random Forest (Rework Risk)](assets/roc_rf_rework_risk.png)
+
+**Feature Importance (Top Features)**  
+![Feature Importance – Random Forest (Rework Risk)](assets/fi_rf_rework_risk.png)
+
+
+**Model Selection**
+
+| Model                                |   Accuracy |   Precision |   Recall |       F1 |
+|:-------------------------------------|-----------:|------------:|---------:|---------:|
+| Logistic Regression (class_weighted) |   0.566703 |    0.380707 | 0.827995 | 0.52159  |
+| Random Forest (tuned)                |   0.539108 |    0.373984 | 0.913517 | 0.530703 |
+
+**Observations:**
+
+From a business standpoint, the main goal is to **catch as many bad units as possible** before they leave the line. Therefore, recall on the rework class is the priority, since missing a defective unit (false negative) is more costly than over-flagging a good unit.
+
+- The tuned Random Forest (RF) model catches **~91%** of rework units vs **~83%** for Logistic Regression (LR).
+- F1 is slightly better for RF, meaning it balances precision/recall a bit better for the rework class.
+- Interpretability vs performance:  
+  - **LR** is kept as a baseline and explanation tool, with clear coefficients showing how standard vs custom, flooring/stairs, and Shift 3 affect risk.  
+  - **RF** is used as the operational model because it handles non-linear interactions and gives the best recall on rework risk, with similar ROC-AUC.
+
+**Conclusion:**  
+I use Logistic Regression as a transparent benchmark, but deploy the tuned Random Forest as the main rework-risk model because it maximizes recall on bad parts while maintaining comparable overall performance.
+
+##### Rework Reason (3 Buckets)
+
+**Random Forest (grouped buckets)**
+
+**Model Evaluation Metrics (Test Set)**
+
+| Class / Bucket                   | Precision | Recall | F1   | Support |
+|----------------------------------|----------:|-------:|-----:|--------:|
+| Dimensional / Assembly Issues    |     0.95  |  0.93  | 0.94 |   2377  |
+| Equipment / Human Factors        |     0.89  |  0.98  | 0.93 |    541  |
+| Surface / Material Defects       |     0.33  |  0.30  | 0.32 |    204  |
+| **Overall Accuracy**             |           |        | **0.90** | 3122 |
+| **Macro Avg**                    |     0.72  |  0.74  | 0.73 |        |
+| **Weighted Avg**                 |     0.90  |  0.90  | 0.90 |        |
+
+**ROC Curves**  
+![ROC – Random Forest (Rework Reason Buckets)](assets/roc_rf_rework_reason.png)
+
+**Feature Importance (Top Features)**  
+![Feature Importance – Random Forest (Rework Reason Buckets)](assets/fi_rf_rework_reason.png)
+
+**Observations:**
+
+- The model achieves **high precision and recall for Dimensional / Assembly Issues and Equipment / Human Factors**, meaning it reliably separates these two major rework buckets.
+- Surface / Material Defects has much lower precision/recall, reflecting that this bucket is rarer and harder to distinguish from the other two.
+- The strongest drivers of predicted rework bucket are **machine_id_M15 and machine_id_M16**. The model has learned that when a unit comes from these machines, the type of rework needed is more predictable than for other machines (they are used as early decision splits in the trees).
+- Process times (cutting_time, cycle_time, tempering_time, framing_time) also contribute substantially, meaning **how long the unit spends in each stage** helps the model distinguish the type of defect.
+- Shift 3 and, to a lesser extent, Shift 2 matter as well, indicating that **time-of-day / staffing patterns influence which kind of defect tends to occur**.
+
+**Conclusion:**  
+The model effectively shows that **machine identity and process times are strong signals of *what kind* of defect occurs, not just whether a defect occurs at all**. In a real plant, this would support **machine-specific corrective actions** (maintenance, calibration, operator training) rather than generic “quality is bad” interventions.
+
+  
 
 #### [Global Supply Chain & Procurement Intelligence (End-to-End Analytics)](https://github.com/andrea-lopera/Procurement-Intelligence-Dashboard-main)  | Python, Tableau | 2025
 
