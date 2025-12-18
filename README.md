@@ -11,7 +11,7 @@
 This project simulates a multi-stage glass manufacturing line and builds an end-to-end analytics stack around it. Using Python, I generate realistic production logs (JSON) and quality audit data (CSV), then load them into PostgreSQL to model the process with relational schemas, joins, and window functions. On top of that, I design Tableau dashboards to monitor throughput, rework rate, and cycle time across shifts, machines, and product families. Finally, I train machine learning models (Logistic Regression and Random Forest) to predict which units are likely to require rework and to classify the most probable rework root cause, showing how analytics can proactively support production and quality decisions.
 
 ##### Production Dashboard
-![Production Dashboard](assets/production_thumbnail.png)
+![Production Dashboard](assets/production_line/production_thumbnail.png)
 
 ##### Rework Risk
 
