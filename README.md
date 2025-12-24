@@ -26,10 +26,10 @@ Simulated a multi-stage glass manufacturing line with 50k+ production records to
 
 | Metric    | Value |
 |----------|-------|
-| Accuracy | 0.567 |
-| Precision (class 1) | 0.381 |
-| Recall (class 1)    | 0.828 |
-| F1 (class 1)        | 0.522 |
+| Accuracy | 0.563 |
+| Precision (class 1) | 0.377 |
+| Recall (class 1)    | 0.814 |
+| F1 (class 1)        | 0.515 |
 
 **ROC Curve**  
 ![ROC – Logistic Regression (Rework Risk)](assets/production_line/roc_lr_rework_risk.png)
@@ -43,10 +43,10 @@ Simulated a multi-stage glass manufacturing line with 50k+ production records to
 
 | Metric    | Value |
 |----------|-------|
-| Accuracy | 0.539 |
-| Precision (class 1) | 0.374 |
-| Recall (class 1)    | 0.914 |
-| F1 (class 1)        | 0.531 |
+| Accuracy | 0.536 |
+| Precision (class 1) | 0.372 |
+| Recall (class 1)    | 0.913 |
+| F1 (class 1)        | 0.529 |
 
 **ROC Curve**  
 ![ROC – Random Forest (Rework Risk)](assets/production_line/roc_rf_rework_risk.png)
@@ -55,17 +55,16 @@ Simulated a multi-stage glass manufacturing line with 50k+ production records to
 ![Feature Importance – Random Forest (Rework Risk)](assets/production_line/fi_rf_rework_risk.png)
 
 **Model Selection**
-
 | Model                                |   Accuracy |   Precision |   Recall |       F1 |
 |:-------------------------------------|-----------:|------------:|---------:|---------:|
-| Logistic Regression (class_weighted) |   0.566703 |    0.380707 | 0.827995 | 0.52159  |
-| Random Forest (tuned)                |   0.539108 |    0.373984 | 0.913517 | 0.530703 |
+| Logistic Regression (class_weighted) |   0.56314  |    0.37702  | 0.814542 | 0.515456 |
+| Random Forest (tuned)                |   0.536093 |    0.372372 | 0.913517 | 0.529079 |
 
 **Observations:**
 
 From a business standpoint, the main goal is to **catch as many bad units as possible** before they leave the line. Therefore, recall on the rework class is the priority, since missing a defective unit (false negative) is more costly than over-flagging a good unit.
 
-- The tuned Random Forest (RF) model catches **~91%** of rework units vs **~83%** for Logistic Regression (LR).
+- The tuned Random Forest (RF) model catches **~91%** of rework units vs **~81%** for Logistic Regression (LR).
 - F1 is slightly better for RF, meaning it balances precision/recall a bit better for the rework class.
 - Interpretability vs performance:  
   - **LR** is kept as a baseline and explanation tool, with clear coefficients showing how standard vs custom, flooring/stairs, and Shift 3 affect risk.  
@@ -84,10 +83,10 @@ I use Logistic Regression as a transparent benchmark, but deploy the tuned Rando
 | Class / Bucket                   | Precision | Recall | F1   | Support |
 |----------------------------------|----------:|-------:|-----:|--------:|
 | Dimensional / Assembly Issues    |     0.95  |  0.93  | 0.94 |   2377  |
-| Equipment / Human Factors        |     0.89  |  0.98  | 0.93 |    541  |
-| Surface / Material Defects       |     0.33  |  0.30  | 0.32 |    204  |
+| Equipment / Human Factors        |     0.86  |  0.99  | 0.92 |    541  |
+| Surface / Material Defects       |     0.32  |  0.29  | 0.30 |    204  |
 | **Overall Accuracy**             |           |        | **0.90** | 3122 |
-| **Macro Avg**                    |     0.72  |  0.74  | 0.73 |        |
+| **Macro Avg**                    |     0.71  |  0.74  | 0.72 |        |
 | **Weighted Avg**                 |     0.90  |  0.90  | 0.90 |        |
 
 **ROC Curves**  
