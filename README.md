@@ -56,7 +56,7 @@ Simulated a multi-stage glass manufacturing line with 50k+ production records to
 
 **Model Selection**
 | Model                                |   Accuracy |   Precision |   Recall |       F1 |
-|:-------------------------------------|-----------:|------------:|---------:|---------:|
+|--------------------------------------|------------|-------------|----------|----------|
 | Logistic Regression (class_weighted) |   0.56314  |    0.37702  | 0.814542 | 0.515456 |
 | Random Forest (tuned)                |   0.536093 |    0.372372 | 0.913517 | 0.529079 |
 
