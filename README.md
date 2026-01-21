@@ -14,6 +14,7 @@ Simulated a multi-stage glass manufacturing line with 50k+ production records to
 - Designed Tableau dashboards to monitor throughput, rework rate, and average cycle time by product category, machine, and shift, supporting drill-down root-cause analysis for production and quality issues.
 - Trained classification models (Logistic Regression and Random Forest) to predict which units are likely to require rework based on process times and product attributes, prioritizing recall to minimize missed defects.
 - Trained a second Random Forest model to classify the most likely rework root-cause bucket (Dimensional / Assembly Issues, Equipment / Human Factors, Surface / Material Defects), linking predictions back to specific machines and shifts for targeted corrective actions.
+- Built end-to-end improvement recommendations aligned with Lean practices, including flow optimization by product family, risk-based quality checkpoints, standard work and error-proofing concepts, machine-level Kaizen triggers, and process control mechanisms to reduce rework risk and improve throughput reliability.
 
 ##### Production Dashboard
 ![Production Dashboard](assets/production_line/production_thumbnail.png)
