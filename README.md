@@ -1,5 +1,38 @@
 ## Core Skills
-**Python** (Pandas, NumPy, Scikit-learn, PyTorch) • **SQL** • **Power BI** • **Tableau** • **SPSS** • **Excel** • **Geospatial Analytics** • **Data Modeling** • **Workflow Automation** • **Dashboards** • **ERP & QMS Systems** • **Lean Manufacturing**
+
+**Operational Analytics & Decision Systems**  
+Lean Manufacturing • Process Improvement • KPI Design • Bottleneck & Variability Analysis • ERP & QMS Systems  
+
+**Data & Modeling**  
+Python (Pandas, NumPy, Scikit-learn, PyTorch) • SQL • Data Modeling • Machine Learning  
+
+**Visualization & Decision Support**  
+Tableau • Power BI • Dashboards • Executive Reporting  
+
+**Automation & Analysis**  
+Workflow Automation • Excel (Power Query) • SPSS • Geospatial Analytics  
+
+---
+
+## How I Work (Lean × Analytics)
+
+I specialize in turning complex operational systems into **clear, data-driven decisions**.  
+My approach blends **Lean thinking** (flow, waste, variability, constraints) with **analytics and machine learning** to diagnose problems, quantify trade-offs, and enable action — not just reporting.
+
+Rather than starting with tools, I start with **operational patterns** and design the data, models, and dashboards needed to support the right decisions.
+
+### Operational Decision Patterns
+
+| Operational Pattern | What I Look For in Data | Analytics Used | Decision Enabled |
+|--------------------|-------------------------|----------------|------------------|
+| Bottleneck Formation | Rising WIP, cycle-time divergence by stage or machine | SQL (window functions), Tableau | Capacity rebalance, flow redesign |
+| Quality Drift | Rework rate by product, machine, or shift | Classification models, root-cause analysis | Targeted corrective actions |
+| Variability Explosion | Lead-time variance, unstable throughput | SPC concepts, clustering | Standard work, process stabilization |
+| Capacity Mismatch | Utilization vs demand by product family | Scenario & trade-off modeling | Overtime vs subcontracting decisions |
+| Supplier Risk Concentration | CR5, defects correlated with delays | Pareto analysis, KPI dashboards | Supplier diversification, risk mitigation |
+| Data Blind Spots | Manual logs, missing or inconsistent fields | Data modeling, ETL design | ERP / QMS data capture & visibility |
+
+This lens applies across manufacturing, supply chain, and data-intensive systems, and it frames how I design analytics solutions throughout the projects below.
 
 ---
 
