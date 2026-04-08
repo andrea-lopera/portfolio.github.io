@@ -194,7 +194,7 @@ Trained deep learning models from scratch and via transfer learning.
 
 - **M.S. Data Science** – UT Arlington (2025)  
 - **M.Ed. Mathematics** – Texas Christian University (2022)
-- **Engineering in Data Analysis (In Progress)** – Transferred from Industrial Engineering  
+- **Engineering in Data Analytics (In Progress)** – Transferred from Industrial Engineering  
 - **B.A. Education** – UT Arlington (2020)  
 - **Production Engineering** – EAFIT University, Colombia (2016)  
 - **Quality Assurance Tech.** – ITM University, Colombia (2009)
